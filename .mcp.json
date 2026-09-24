@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "ifg": {
+      "type": "http",
+      "url": "https://ifg.tax/v1/mcp"
+    }
+  }
+}
