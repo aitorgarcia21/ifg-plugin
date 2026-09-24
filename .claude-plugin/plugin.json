@@ -1,6 +1,6 @@
 {
-  "name": "ifg-tax",
-  "displayName": "IFG — Official Tax Sources",
+  "name": "ifg",
+  "displayName": "IFG",
   "version": "1.0.0",
   "description": "Official tax texts at the right date, with applicability status, versions and a clickable official link: France and its neighbours (Luxembourg, Switzerland, Belgium, Germany, Monaco, Andorra, Italy), tax treaties, the EU and the OECD. Gaps are reported explicitly, never invented.",
   "author": {
@@ -9,7 +9,24 @@
     "url": "https://ifg.tax"
   },
   "homepage": "https://ifg.tax",
-  "repository": "https://github.com/aitorgarcia21/ifg-tax-plugin",
+  "repository": "https://github.com/aitorgarcia21/ifg-plugin",
   "license": "MIT",
-  "keywords": ["tax", "tax-law", "fiscalite", "legal-research", "tax-treaties", "france", "luxembourg", "switzerland", "belgium", "germany", "italy", "monaco", "andorra", "eu-law", "oecd", "mcp"]
+  "keywords": [
+    "tax",
+    "tax-law",
+    "fiscalite",
+    "legal-research",
+    "tax-treaties",
+    "france",
+    "luxembourg",
+    "switzerland",
+    "belgium",
+    "germany",
+    "italy",
+    "monaco",
+    "andorra",
+    "eu-law",
+    "oecd",
+    "mcp"
+  ]
 }

@@ -1,5 +1,5 @@
 ---
-name: ifg-setup
+name: setup
 description: Connect the IFG tax sources MCP server (sign-in with an IFG account) and check that it works.
 ---
 

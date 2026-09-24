@@ -1,5 +1,5 @@
 ---
-name: ifg-tax-research
+name: tax-research
 description: Research tax law with IFG official sources — find the right text, read it at the date of the tax event, and cite its official link. Use for any question on French, Luxembourg, Swiss, Belgian, German, Monegasque, Andorran or Italian tax law, tax treaties, EU tax law or OECD guidance.
 ---
 
