@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" role="img" aria-label="IFG">
+  <rect width="192" height="192" rx="34" fill="#02060D"/>
+  <g transform="translate(13 36) scale(3.3)">
+    <circle cx="8" cy="8.5" r="2.5" fill="#C5A572"/>
+    <text x="8" y="30" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="24" fill="#FFFFFF">I</text>
+    <text x="14" y="30" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="24" fill="#FFFFFF">FG</text>
+  </g>
+</svg>

@@ -14,7 +14,7 @@ IFG connects Claude to official tax sources for **France** and its neighbours (*
 - **Skill `tax-research`** (`/ifg:tax-research`): the research method (find, read at the right date, cite, respect gaps).
 - **Skill `setup`** (`/ifg:setup`): sign-in and connection check.
 
-An IFG account is required (sign-in at first use). Plans: https://ifg.tax — Support: contact@ifg.tax — Privacy: https://ifg.tax/politique-confidentialite-en
+An IFG account is required (sign-in at first use). Plans: https://ifg.tax — Support: contact@ifg.tax — Privacy: https://ifg.tax/privacy-policy
 
 IFG is a documentary infrastructure: the professional and their assistant remain responsible for the legal analysis and conclusion.
 
