@@ -10,6 +10,8 @@
   },
   "homepage": "https://ifg.tax",
   "privacyPolicyUrl": "https://ifg.tax/privacy-policy",
+  "documentationUrl": "https://ifg.tax/connect",
+  "termsOfServiceUrl": "https://ifg.tax/cgv",
   "repository": "https://github.com/aitorgarcia21/ifg-plugin",
   "license": "MIT",
   "keywords": [
