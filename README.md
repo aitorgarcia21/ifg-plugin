@@ -2,7 +2,7 @@
 
 **The right tax text, at the right date, in your AI** — with applicability status, versions and a clickable official link.
 
-IFG connects Claude to official tax sources for **France** and its neighbours (**Luxembourg, Switzerland, Belgium, Germany, Monaco, Andorra, Italy**), their **tax treaties** (including MLI effects), **EU** tax law and **OECD** guidance: codes and laws, administrative doctrine, rulings, case law, forms and parliamentary work.
+IFG connects Claude to official tax sources for **France** and its neighbours (**Luxembourg, Switzerland, Belgium, Germany, Monaco, Andorra, Italy**), their **tax treaties** (including MLI effects), **EU** tax law and **OECD** guidance: codes and laws, administrative doctrine, rulings, case law, forms and parliamentary work. More countries are added one by one.
 
 - Every text comes from its official publisher, with `verification: verified` and a citation link carrying the version date.
 - Point-in-time reading: the version applicable on the date of the tax event, with past and announced future changes.
@@ -22,4 +22,4 @@ IFG is a documentary infrastructure: the professional and their assistant remain
 
 # IFG pour Claude
 
-**Le bon texte fiscal, à la bonne date, dans votre IA** : statut d'applicabilité, versions et lien officiel cliquable, pour la France, ses voisins (Luxembourg, Suisse, Belgique, Allemagne, Monaco, Andorre, Italie), les conventions fiscales, le droit de l'Union et l'OCDE. Après l'installation, connectez IFG une fois : **Personnaliser → Connecteurs → IFG → Connecter** sur claude.ai (https://claude.ai/customize/connectors), ou `/mcp` dans Claude Code. Un compte IFG est nécessaire : essai gratuit de 7 jours, aucun débit aujourd'hui. https://ifg.tax
+**Le bon texte fiscal, à la bonne date, dans votre IA** : statut d'applicabilité, versions et lien officiel cliquable, pour la France, ses voisins (Luxembourg, Suisse, Belgique, Allemagne, Monaco, Andorre, Italie), les conventions fiscales, le droit de l'Union et l'OCDE ; d'autres pays arrivent, un par un. Après l'installation, connectez IFG une fois : **Personnaliser → Connecteurs → IFG → Connecter** sur claude.ai (https://claude.ai/customize/connectors), ou `/mcp` dans Claude Code. Un compte IFG est nécessaire : essai gratuit de 7 jours, aucun débit aujourd'hui. https://ifg.tax
