@@ -1,7 +1,7 @@
 {
   "name": "ifg",
   "displayName": "IFG",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Official tax texts at the right date, with applicability status, versions and a clickable official link: France and its neighbours (Luxembourg, Switzerland, Belgium, Germany, Monaco, Andorra, Italy), tax treaties, the EU and the OECD. Gaps are reported explicitly, never invented.",
   "author": {
     "name": "IFG",
