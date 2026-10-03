@@ -1,8 +1,8 @@
 {
   "name": "ifg",
   "displayName": "IFG",
-  "version": "1.0.4",
-  "description": "Official tax texts at the right date, with applicability status, versions and a clickable official link: France and its neighbours (Luxembourg, Switzerland, Belgium, Germany, Monaco, Andorra, Italy), tax treaties, the EU and the OECD. More countries are added one by one. Gaps are reported explicitly, never invented.",
+  "version": "1.0.5",
+  "description": "For tax professionals. Claude cites the official tax text in force on the date of the facts, with its status and a clickable link to the official source. Covers France, Luxembourg, Switzerland, Belgium, Germany, Monaco, Andorra and Italy, plus tax treaties, EU law and the OECD; more countries are coming, one by one. Missing texts are flagged, never invented. Requires an IFG account (7-day free trial).",
   "author": {
     "name": "IFG",
     "email": "contact@ifg.tax",
