@@ -9,6 +9,7 @@ IFG serves official tax texts (laws, codes, treaties, administrative doctrine, r
 
 ## Method
 
+0. **Connect IFG first.** If the IFG tools (`search_authority`, `get_authority`, `changes_since`, `browse_instrument`) are not available in this conversation, the IFG connector is installed but not connected yet. Do not answer the tax question from memory. Tell the user, in their language and in two short lines: open **Customize → Connectors → IFG → Connect** (claude.ai, desktop and mobile: https://claude.ai/customize/connectors; Claude Code: run `/mcp`, choose `ifg`, then authenticate), create an IFG account or sign in (7-day free trial, nothing charged today), then ask the question again.
 1. **Never answer tax law from memory.** Every rule you rely on comes from a text returned by IFG in this conversation.
 2. **Find the authority** with `search_authority`:
    - `query` is a reference (`CGI 119 bis`, `LIR 56bis`, `AStG 7`, `treaty/CH-FR-1966/11`, `ECLI:FR:CE…`, `BOI-RPPM-RCM-30-30-20-20`) or an official title, never a question or a sentence.

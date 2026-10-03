@@ -14,7 +14,7 @@ IFG connects Claude to official tax sources for **France** and its neighbours (*
 - **Skill `tax-research`** (`/ifg:tax-research`): the research method (find, read at the right date, cite, respect gaps).
 - **Skill `setup`** (`/ifg:setup`): sign-in and connection check.
 
-An IFG account is required (sign-in at first use). Plans: https://ifg.tax — Support: contact@ifg.tax — Privacy: https://ifg.tax/privacy-policy
+After installing, connect IFG once: **Customize → Connectors → IFG → Connect** on claude.ai (https://claude.ai/customize/connectors), or `/mcp` in Claude Code. An IFG account is required: 7-day free trial, nothing charged today. Plans: https://ifg.tax — Support: contact@ifg.tax — Privacy: https://ifg.tax/privacy-policy
 
 IFG is a documentary infrastructure: the professional and their assistant remain responsible for the legal analysis and conclusion.
 
@@ -22,4 +22,4 @@ IFG is a documentary infrastructure: the professional and their assistant remain
 
 # IFG pour Claude
 
-**Le bon texte fiscal, à la bonne date, dans votre IA** : statut d'applicabilité, versions et lien officiel cliquable, pour la France, ses voisins (Luxembourg, Suisse, Belgique, Allemagne, Monaco, Andorre, Italie), les conventions fiscales, le droit de l'Union et l'OCDE. Un compte IFG est nécessaire : https://ifg.tax
+**Le bon texte fiscal, à la bonne date, dans votre IA** : statut d'applicabilité, versions et lien officiel cliquable, pour la France, ses voisins (Luxembourg, Suisse, Belgique, Allemagne, Monaco, Andorre, Italie), les conventions fiscales, le droit de l'Union et l'OCDE. Après l'installation, connectez IFG une fois : **Personnaliser → Connecteurs → IFG → Connecter** sur claude.ai (https://claude.ai/customize/connectors), ou `/mcp` dans Claude Code. Un compte IFG est nécessaire : essai gratuit de 7 jours, aucun débit aujourd'hui. https://ifg.tax
