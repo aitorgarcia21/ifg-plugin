@@ -2,7 +2,7 @@
 
 **The right tax text, at the right date, in your AI** — with applicability status, versions and a clickable official link.
 
-IFG connects Claude to official tax sources for **France** (overseas territories included) and **Luxembourg, Switzerland** (cantons included), **Belgium** (regions included), **Germany, Monaco, Andorra, Italy, the UK, the Netherlands, Spain, Hungary, Slovenia, Croatia, Czechia, Slovakia, Estonia, Latvia, Lithuania, Malta, Bulgaria, Greece and Austria**, their **tax treaties** (including MLI effects), **EU** tax law and **OECD** guidance: codes and laws, administrative doctrine, rulings, case law, forms and parliamentary work. More countries are added one by one.
+IFG connects Claude to official tax sources for **France** (overseas territories included) and **Luxembourg, Switzerland** (cantons included), **Belgium** (regions included), **Germany, Monaco, Andorra, Italy, the UK, the Netherlands, Spain, Hungary, Slovenia, Croatia, Czechia, Slovakia, Estonia, Latvia, Lithuania, Malta, Bulgaria, Greece, Austria, Sweden, Denmark and Finland**, their **tax treaties** (including MLI effects), **EU** tax law and **OECD** guidance: codes and laws, administrative doctrine, rulings, case law, forms and parliamentary work. More countries are added one by one.
 
 - Every text comes from its official publisher, with `verification: verified` and a citation link carrying the version date.
 - Point-in-time reading: the version applicable on the date of the tax event, with past and announced future changes.
