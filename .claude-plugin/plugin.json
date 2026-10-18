@@ -1,8 +1,8 @@
 {
   "name": "ifg",
   "displayName": "IFG",
-  "version": "1.0.12",
-  "description": "For tax professionals. Claude cites the official tax text in force on the date of the facts, with its status and a clickable link to the official source. Covers France and its overseas territories, Luxembourg, Switzerland and its cantons, Belgium and its regions, Germany, Monaco, Andorra, Italy, the UK, the Netherlands, Spain, Hungary, Slovenia, Croatia, Czechia, Slovakia, Estonia, Latvia, Lithuania, Malta, Bulgaria, Greece, Austria, Sweden, Denmark and Finland, plus tax treaties, EU law and the OECD; more countries are coming, one by one. Missing texts are flagged, never invented. Requires an IFG account (7-day free trial).",
+  "version": "1.0.13",
+  "description": "For tax professionals. Claude cites the official tax text in force on the date of the facts, with its status and a clickable link to the official source. Covers France and its overseas territories, Luxembourg, Switzerland and its cantons, Belgium and its regions, Germany, Monaco, Andorra, Italy, the UK, the Netherlands, Spain, Hungary, Slovenia, Croatia, Czechia, Slovakia, Estonia, Latvia, Lithuania, Malta, Bulgaria, Greece, Austria, Sweden, Denmark, Finland and Ireland, plus tax treaties, EU law and the OECD; more countries are coming, one by one. Missing texts are flagged, never invented. Requires an IFG account (7-day free trial).",
   "author": {
     "name": "IFG",
     "email": "contact@ifg.tax",
