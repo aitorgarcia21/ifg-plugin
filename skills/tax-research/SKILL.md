@@ -1,6 +1,6 @@
 ---
 name: tax-research
-description: Research tax law with IFG official sources — find the right text, read it at the date of the tax event, and cite its official link. Use for any question on French (overseas territories included), Luxembourg, Swiss (federal and cantonal), Belgian (federal and regional), German, Monegasque, Andorran, Italian, UK, US (federal Internal Revenue Code), Dutch, Spanish, Hungarian, Slovenian, Croatian, Czech or Slovak tax law, tax treaties, EU tax law, OECD guidance or the UN Model.
+description: Research tax law with IFG official sources — find the right text, read it at the date of the tax event, and cite its official link. Use for any question on French (overseas territories included), Luxembourg, Swiss (federal and cantonal), Belgian (federal and regional), German, Monegasque, Andorran, Italian, UK, US (federal Internal Revenue Code, California Revenue and Taxation Code), Dutch, Spanish, Hungarian, Slovenian, Croatian, Czech or Slovak tax law, tax treaties, EU tax law, OECD guidance or the UN Model.
 ---
 
 # Tax research with IFG
