@@ -11,7 +11,7 @@ IFG connects Claude to official tax sources for **France** (overseas territories
 ## What the plugin contains
 
 - **MCP server** `ifg` → `https://ifg.tax/v1/mcp` (Streamable HTTP, OAuth 2.1). Four tools: `search_authority`, `get_authority`, `changes_since`, `browse_instrument`.
-- **Skill `tax-research`** (`/ifg:tax-research`): the research method (find, read at the right date, cite, respect gaps).
+- **Skill `tax-research`** (`/ifg:tax-research`): the research method (find, read at the right date, answer like a tax professional with each text named in the sentence and linked to its official version, respect gaps).
 - **Skill `setup`** (`/ifg:setup`): sign-in and connection check.
 
 After installing, connect IFG once: **Customize → Connectors → IFG → Connect** on claude.ai (https://claude.ai/customize/connectors), or `/mcp` in Claude Code. An IFG account is required: 7-day free trial, nothing charged today. Plans: https://ifg.tax — Support: contact@ifg.tax — Privacy: https://ifg.tax/privacy-policy
