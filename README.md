@@ -10,7 +10,7 @@ IFG connects Claude to official tax sources for **France** (overseas territories
 
 ## What the plugin contains
 
-- **MCP server** `ifg` → `https://ifg.tax/v1/mcp` (Streamable HTTP, OAuth 2.1). Four tools: `search_authority`, `get_authority`, `changes_since`, `browse_instrument`.
+- **MCP server** `ifg` → `https://ifg.tax/v1/mcp` (Streamable HTTP, OAuth 2.1). Seven tools: `search_authority`, `get_authority`, `browse_instrument`, `changes_since`, `check_sources` (checks the quotes of the answer in the official text), `coverage` (what IFG holds, publisher by publisher) and `report_issue` (reports a wrong or missing text to IFG, without the user's facts).
 - **Skill `tax-research`** (`/ifg:tax-research`): the research method (find, read at the right date, answer like a tax professional with each text named in the sentence and linked to its official version, respect gaps).
 - **Skill `setup`** (`/ifg:setup`): sign-in and connection check.
 
