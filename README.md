@@ -14,7 +14,7 @@ IFG connects Claude to official tax sources for **France** (overseas territories
 - **Skill `tax-research`** (`/ifg:tax-research`): the research method (find, read at the right date, answer like a tax professional with each text named in the sentence and linked to its official version, respect gaps).
 - **Skill `setup`** (`/ifg:setup`): sign-in and connection check.
 
-After installing, connect IFG once: **Customize → Connectors → IFG → Connect** on claude.ai (https://claude.ai/customize/connectors), or `/mcp` in Claude Code. An IFG account is required: 7-day free trial, nothing charged today. Plans: https://ifg.tax — Support: contact@ifg.tax — Privacy: https://ifg.tax/privacy-policy
+After installing, connect IFG once: **Customize → Connectors → IFG → Connect** on claude.ai (https://claude.ai/customize/connectors), or `/mcp` in Claude Code. An IFG account is required: 7-day free trial, no card; when it ends, access simply stops unless you subscribe. Plans: https://ifg.tax — Support: contact@ifg.tax — Privacy: https://ifg.tax/privacy-policy
 
 IFG is a documentary infrastructure: the professional and their assistant remain responsible for the legal analysis and conclusion.
 
