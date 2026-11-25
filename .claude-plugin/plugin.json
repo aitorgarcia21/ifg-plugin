@@ -1,8 +1,8 @@
 {
   "name": "ifg",
   "displayName": "IFG",
-  "version": "1.0.40",
-  "description": "For tax professionals. Claude cites the official tax text in force on the date of the facts, with its status and a clickable link to the official source. Covers France and its overseas territories, Luxembourg, Switzerland and its cantons, Belgium and its regions, Germany, Monaco, Andorra, Italy, the UK, the Netherlands, Spain, Hungary, Slovenia, Croatia, Czechia, Slovakia, Estonia, Latvia, Lithuania, Malta, Bulgaria, Greece, Austria, Sweden, Denmark, Finland, Ireland, Portugal, Romania, Poland, Cyprus and the United States (federal Internal Revenue Code, California Revenue and Taxation Code, New York Tax Law), plus tax treaties, EU law and the OECD; more countries are coming, one by one. Missing texts are flagged, never invented. Requires an IFG account (7-day free trial).",
+  "version": "1.0.41",
+  "description": "For tax professionals. Claude reads official tax texts at the date of the facts, with status, versions and clickable publisher links. Covers 32 European jurisdictions (all 27 EU states, French overseas, Switzerland and cantons, the UK, Monaco, Andorra, Liechtenstein) and Israel, plus bilateral tax treaties, EU law, OECD and UN Models. 7-day free trial, no card.",
   "author": {
     "name": "IFG",
     "email": "contact@ifg.tax",
@@ -11,7 +11,7 @@
   "homepage": "https://ifg.tax",
   "privacyPolicyUrl": "https://ifg.tax/privacy-policy",
   "documentationUrl": "https://ifg.tax/connect",
-  "termsOfServiceUrl": "https://ifg.tax/cgv",
+  "termsOfServiceUrl": "https://ifg.tax/terms-and-conditions",
   "repository": "https://github.com/aitorgarcia21/ifg-plugin",
   "license": "MIT",
   "keywords": [
@@ -20,6 +20,7 @@
     "fiscalite",
     "legal-research",
     "tax-treaties",
+    "europe",
     "france",
     "luxembourg",
     "switzerland",
@@ -28,18 +29,18 @@
     "italy",
     "monaco",
     "andorra",
+    "liechtenstein",
     "spain",
     "netherlands",
     "united-kingdom",
+    "cyprus",
+    "poland",
+    "portugal",
+    "austria",
+    "ireland",
+    "israel",
     "eu-law",
     "oecd",
-    "mcp",
-    "hungary",
-    "slovenia",
-    "croatia",
-    "czechia",
-    "slovakia",
-    "united-states",
-    "internal-revenue-code"
+    "mcp"
   ]
 }

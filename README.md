@@ -1,20 +1,30 @@
 # IFG for Claude
 
-**All tax law, as at the date of the taxable event** — in your AI, with applicability status, versions and a clickable official link. IFG is a documentary research base: it supplies the texts; the analysis stays yours.
+**Tax law for your AI.** Official tax texts at the date of the facts, with applicability status, historical versions and a clickable link to each official publisher. IFG is a documentary research infrastructure: it delivers the exact texts; the legal analysis stays yours.
 
-IFG connects Claude to official tax sources for **France** (overseas territories included) and **Luxembourg, Switzerland** (cantons included), **Belgium** (regions included), **Germany, Monaco, Andorra, Italy, the UK, the Netherlands, Spain, Hungary, Slovenia, Croatia, Czechia, Slovakia, Estonia, Latvia, Lithuania, Malta, Bulgaria, Greece, Austria, Sweden, Denmark, Finland, Ireland, Portugal, Romania, Poland, Cyprus and the United States** (federal Internal Revenue Code, California Revenue and Taxation Code, New York Tax Law), their **tax treaties** (including MLI effects), **EU** tax law and **OECD** guidance: codes and laws, administrative doctrine, rulings, case law, forms and parliamentary work. More countries are added one by one.
+IFG connects Claude to official tax sources across **32 European jurisdictions** (all **27 EU Member States** including **France** and its overseas territories, **Switzerland** and its 26 cantons, the **United Kingdom**, **Monaco**, **Andorra** and its parishes, **Liechtenstein**) and **Israel**, plus **2,389 bilateral tax treaties** (with protocols and MLI effects), **EU tax law**, **OECD Model Commentaries** and the **UN Model**: codes and laws, administrative doctrine, rulings, case law, forms and parliamentary history.
 
 - Every text comes from its official publisher, with `verification: verified` and a citation link carrying the version date.
-- Point-in-time reading: the version applicable on the date of the tax event, with past and announced future changes.
+- Point-in-time reading: the exact wording applicable on the date of the tax event, with past and announced future changes.
+- Cross-border assembly: bilateral treaty, MLI, EU directives and domestic rules assembled in one read-only call (`cross_border_sources`).
+- Quote verification: `check_sources` verifies every quoted passage against the official text at that date.
 - Honest gaps: a missing or unproven text is reported as an explicit gap, never invented.
 
 ## What the plugin contains
 
-- **MCP server** `ifg` → `https://ifg.tax/v1/mcp` (Streamable HTTP, OAuth 2.1). Seven tools: `search_authority`, `get_authority`, `browse_instrument`, `changes_since`, `check_sources` (checks the quotes of the answer in the official text), `coverage` (what IFG holds, publisher by publisher) and `report_issue` (reports a wrong or missing text to IFG, without the user's facts).
-- **Skill `tax-research`** (`/ifg:tax-research`): the research method (find, read at the right date, answer like a tax professional with each text named in the sentence and linked to its official version, respect gaps).
+- **MCP server** `ifg` at `https://ifg.tax/v1/mcp` (Streamable HTTP, OAuth 2.1 with PKCE). Eight tools: `search_authority`, `get_authority`, `browse_instrument`, `cross_border_sources`, `changes_since`, `check_sources`, `coverage` (all read-only) and `report_issue` (reports a suspected source discrepancy without client facts).
+- **Skill `tax-research`** (`/ifg:tax-research`): research method (find, assemble cross-border rules, read at the right date, answer like a tax professional with each text named in the sentence and linked to its official version, verify quotes and respect gaps).
 - **Skill `setup`** (`/ifg:setup`): sign-in and connection check.
 
-After installing, connect IFG once: **Customize → Connectors → IFG → Connect** on claude.ai (https://claude.ai/customize/connectors), or `/mcp` in Claude Code. An IFG account is required: 7-day free trial, no card; when it ends, access simply stops unless you subscribe. Plans: https://ifg.tax — Support: contact@ifg.tax — Privacy: https://ifg.tax/privacy-policy
+After installing, connect IFG once: **Customize -> Connectors -> IFG -> Connect** on claude.ai (https://claude.ai/customize/connectors), or `/mcp` in Claude Code. An IFG account is required: 7-day free trial, no card required; when it ends, access simply stops unless you subscribe.
+
+- Website: https://ifg.tax
+- Connect guide: https://ifg.tax/connect
+- Security: https://ifg.tax/security
+- Technical specification: https://ifg.tax/ifg-mcp-specification.pdf
+- Privacy policy: https://ifg.tax/privacy-policy
+- Terms: https://ifg.tax/terms-and-conditions
+- Support: contact@ifg.tax
 
 IFG is a documentary infrastructure: the professional and their assistant remain responsible for the legal analysis and conclusion.
 
@@ -22,4 +32,6 @@ IFG is a documentary infrastructure: the professional and their assistant remain
 
 # IFG pour Claude
 
-**Tout le droit fiscal, à la date du fait générateur** : dans votre IA, avec statut d'applicabilité, versions et lien officiel cliquable, pour la France et son outre-mer (Polynésie française, Nouvelle-Calédonie…), le Luxembourg, la Suisse et ses cantons, la Belgique et ses régions, l'Allemagne et ses Länder, Monaco, Andorre, l'Italie, le Royaume-Uni, les États-Unis (code fédéral, Californie, New York) et les vingt-deux autres États membres de l'Union européenne (leurs grandes lois fiscales d'abord), les conventions fiscales, le droit de l'Union, l'OCDE et le Modèle ONU. IFG est une base de recherche documentaire : il fournit les textes, l'analyse reste la vôtre. Après l'installation, connectez IFG une fois : **Personnaliser → Connecteurs → IFG → Connecter** sur claude.ai (https://claude.ai/customize/connectors), ou `/mcp` dans Claude Code. Un compte IFG est nécessaire : essai gratuit de 7 jours, aucun débit aujourd'hui. https://ifg.tax
+**Le droit fiscal pour votre IA.** Les textes fiscaux officiels à la date du fait générateur, avec statut d'applicabilité, versions datées et lien cliquable vers l'éditeur officiel, pour **32 juridictions européennes** (les **27 États membres de l'Union européenne** et l'outre-mer français, la **Suisse** et ses 26 cantons, le **Royaume-Uni**, **Monaco**, **Andorre** et ses paroisses, le **Liechtenstein**), **Israël**, **2 389 conventions fiscales bilatérales** (avec effets MLI), le **droit de l'Union européenne**, les commentaires du **Modèle OCDE** et le **Modèle ONU**.
+
+IFG est une base de recherche documentaire : il fournit les textes officiels via 8 outils MCP (dont `cross_border_sources` et `check_sources`), l'analyse reste la vôtre. Après l'installation, connectez IFG une fois : **Personnaliser -> Connecteurs -> IFG -> Connecter** sur claude.ai (https://claude.ai/customize/connectors), ou `/mcp` dans Claude Code. Essai gratuit de 7 jours, sans carte bancaire : à la fin de l'essai, sans abonnement, l'accès s'arrête simplement sans frais. Site : https://ifg.tax · Contact : contact@ifg.tax
