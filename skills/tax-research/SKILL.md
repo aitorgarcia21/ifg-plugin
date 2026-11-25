@@ -1,6 +1,6 @@
 ---
 name: tax-research
-description: Research official tax law with IFG: find the right text, read it at the date of the tax event, assemble cross-border rules, and cite its official link. Covers all 27 EU Member States (French overseas included), Switzerland (federal and cantonal), the UK, Monaco, Andorra, Liechtenstein, Israel, bilateral tax treaties, EU tax law, OECD guidance and the UN Model.
+description: "Research official tax law with IFG: find the right text, read it at the date of the tax event, assemble cross-border rules, and cite its official link. Covers all 27 EU Member States (French overseas included), Switzerland (federal and cantonal), the UK, Monaco, Andorra, Liechtenstein, Israel, bilateral tax treaties, EU tax law, OECD guidance and the UN Model."
 ---
 
 # Tax research with IFG
