@@ -1,8 +1,8 @@
 {
   "name": "ifg",
   "displayName": "IFG",
-  "version": "1.0.41",
-  "description": "For tax professionals. Claude reads official tax texts at the date of the facts, with status, versions and clickable publisher links. Covers 32 European jurisdictions (all 27 EU states, French overseas, Switzerland and cantons, the UK, Monaco, Andorra, Liechtenstein) and Israel, plus bilateral tax treaties, EU law, OECD and UN Models. 7-day free trial, no card.",
+  "version": "1.0.42",
+  "description": "For tax professionals. Claude gets the official tax text in force on the date of the facts, with its status, its versions and a clickable link to the official source, together with the guidance, case law and treaties linked to it. Covers 32 European jurisdictions (all 27 EU member states, French overseas territories, Switzerland and cantons, the UK, Monaco, Andorra, Liechtenstein) and Israel, plus bilateral tax treaties and the MLI, EU law, OECD and UN Models. Requires an IFG account.",
   "author": {
     "name": "IFG",
     "email": "contact@ifg.tax",
